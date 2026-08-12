@@ -1,32 +1,80 @@
-# React + TypeScript + Vite
+# Sathurshna Uthayakumar — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🌐 **Live Portfolio:** https://sathurshna-portfolio.vercel.app/
 
-Currently, two official plugins are available:
+Hi! I'm Sathurshna Uthayakumar, a Computer Science and Engineering undergraduate at the University of Moratuwa, Sri Lanka.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm interested in **Software Engineering, Full-Stack Development, and building practical software solutions to real-world problems.**
 
-## React Compiler
+## 🚀 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎓 BSc Engineering Undergraduate — University of Moratuwa
+- 💻 Interested in Software Engineering & Full-Stack Development
+- 🌱 Currently improving my skills in React, TypeScript, Node.js and modern web development
+- 🔨 Building academic and personal software projects
+- 📍 Sri Lanka
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Frontend
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- React
+- TypeScript
+- HTML
+- CSS
+- JavaScript
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Backend
+
+- Node.js
+- Express
+- Python
+- FastAPI
+
+### Databases
+
+- MySQL
+- PostgreSQL
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Docker
+
+## 📂 Featured Projects
+
+### FreshLens AI
+
+AI-powered automated inventory and freshness monitoring system designed for small-scale retailers.
+
+**Technologies:** React Native, Expo, TypeScript, FastAPI, PostgreSQL, Redis, Celery, Docker
+
+### Expense Tracker
+
+A full-stack expense tracking application for managing personal expenses.
+
+**Technologies:** Node.js, Express, MySQL
+
+### To-Do Application
+
+A simple task management application built while learning modern web development.
+
+**Technologies:** React, JavaScript
+
+## 🔗 Links
+
+- 🌐 [Portfolio](https://sathurshna-portfolio.vercel.app/)
+- 💻 [GitHub](https://github.com/sathurshna)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sathurshna-uthayakumar-64761129/)
+
+## 📄 Resume
+
+My CV is available on my portfolio website.
+
+👉 [View Portfolio & Download CV](https://sathurshna-portfolio.vercel.app/)
+
+---
+
+⭐ Thanks for visiting my repository!

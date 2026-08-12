@@ -15,6 +15,7 @@ const projects = [
       'Redis',
       'Celery',
     ],
+    link: 'https://github.com/FreshLens-AI',
   },
   {
     number: '02',
@@ -30,6 +31,7 @@ const projects = [
       'PostgreSQL',
       'JWT',
     ],
+    link: 'https://github.com/sathurshna/Smart-blood-donation-system',
   },
   {
     number: '03',
@@ -45,6 +47,7 @@ const projects = [
       'Kubernetes',
       'GCP',
     ],
+    link: 'https://github.com/PredictiveOps',
   },
   {
     number: '04',
@@ -60,6 +63,7 @@ const projects = [
       'MySQL',
       'Tailwind CSS',
     ],
+    link: 'https://github.com/sathurshna/Kandypack-Logistics-Project-',
   },
 ];
 
@@ -258,23 +262,36 @@ function App() {
           <div className="projects-grid">
             {projects.map((project) => (
               <article className="project-card" key={project.number}>
-                <div className="project-top">
-                  <span className="project-number">{project.number}</span>
-                  <span className="project-status">{project.status}</span>
-                </div>
+  <div className="project-top">
+    <span className="project-number">{project.number}</span>
 
-                <h3>{project.title}</h3>
+    <span className="project-status">
+      <span className="status-dot">●</span>
+      {project.status}
+    </span>
+  </div>
 
-                <p>{project.description}</p>
+  <div className="project-content">
+    <h3>{project.title}</h3>
 
-                <div className="technology-list">
-                  {project.technologies.map((technology) => (
-                    <span key={technology}>{technology}</span>
-                  ))}
-                </div>
+    <p>{project.description}</p>
+  </div>
 
-                <div className="project-arrow">View Project ↗</div>
-              </article>
+  <div className="technology-list">
+    {project.technologies.map((technology) => (
+      <span key={technology}>{technology}</span>
+    ))}
+  </div>
+
+  <a
+    href={project.link}
+    target="_blank"
+    rel="noreferrer"
+    className="project-arrow"
+  >
+    View Project <span>↗</span>
+  </a>
+</article>
             ))}
           </div>
         </section>

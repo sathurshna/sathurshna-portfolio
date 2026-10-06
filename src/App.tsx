@@ -4,7 +4,7 @@ const projects = [
   {
     number: '01',
     title: 'FreshLens AI',
-    status: 'Ongoing',
+    status: 'Completed',
     description:
       'AI-powered inventory and freshness monitoring system for small-scale retailers. Vendors can capture produce images and receive automated freshness classifications.',
     technologies: [
@@ -19,19 +19,20 @@ const projects = [
   },
   {
     number: '02',
-    title: 'Smart Blood Donation Coordination System',
-    status: 'Ongoing',
+    title: 'Eventra',
+    status: 'Completed',
     description:
-      'Full-stack platform designed to coordinate donors, hospitals, and blood donation requests with role-based authentication and RESTful APIs.',
+      'Full-stack event management platform for discovering, creating, and managing events across web and mobile, with RSVPs, invitations, calendars, and real-time notifications.',
     technologies: [
+      'React',
       'React Native',
-      'JavaScript',
+      'Expo',
       'Node.js',
       'Express.js',
-      'PostgreSQL',
+      'MySQL',
       'JWT',
     ],
-    link: 'https://github.com/sathurshna/Smart-blood-donation-system',
+    link: 'https://github.com/sathurshna/event-management-system',
   },
   {
     number: '03',
@@ -51,6 +52,22 @@ const projects = [
   },
   {
     number: '04',
+    title: 'Smart Blood Donation Coordination System',
+    status: 'Ongoing',
+    description:
+      'Full-stack platform designed to coordinate donors, hospitals, and blood donation requests with role-based authentication and RESTful APIs.',
+    technologies: [
+      'React Native',
+      'JavaScript',
+      'Node.js',
+      'Express.js',
+      'PostgreSQL',
+      'JWT',
+    ],
+    link: 'https://github.com/sathurshna/Smart-blood-donation-system',
+  },
+  {
+    number: '05',
     title: 'Supply Chain Management System',
     status: 'Completed',
     description:
@@ -64,23 +81,6 @@ const projects = [
       'Tailwind CSS',
     ],
     link: 'https://github.com/sathurshna/Kandypack-Logistics-Project-',
-  },
-  {
-    number: '05',
-    title: 'Eventra',
-    status: 'Completed',
-    description:
-      'Full-stack event management platform for discovering, creating, and managing events across web and mobile, with RSVPs, invitations, calendars, and real-time notifications.',
-    technologies: [
-      'React',
-      'React Native',
-      'Expo',
-      'Node.js',
-      'Express.js',
-      'MySQL',
-      'JWT',
-    ],
-    link: 'https://github.com/sathurshna/event-management-system',
   },
 ];
 

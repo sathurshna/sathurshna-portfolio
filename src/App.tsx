@@ -65,6 +65,23 @@ const projects = [
     ],
     link: 'https://github.com/sathurshna/Kandypack-Logistics-Project-',
   },
+  {
+    number: '05',
+    title: 'Eventra',
+    status: 'Completed',
+    description:
+      'Full-stack event management platform for discovering, creating, and managing events across web and mobile, with RSVPs, invitations, calendars, and real-time notifications.',
+    technologies: [
+      'React',
+      'React Native',
+      'Expo',
+      'Node.js',
+      'Express.js',
+      'MySQL',
+      'JWT',
+    ],
+    link: 'https://github.com/sathurshna/event-management-system',
+  },
 ];
 
 const skills = [
@@ -188,7 +205,7 @@ function App() {
               </div>
 
               <div>
-                <strong>04</strong>
+                <strong>05</strong>
                 <span>Projects</span>
               </div>
             </div>

@@ -63,6 +63,12 @@ A simple task management application built while learning modern web development
 
 **Technologies:** React, JavaScript
 
+### Eventra
+
+A full-stack event management platform for discovering, creating, and managing events across web and mobile, with RSVP and invitation workflows.
+
+**Technologies:** React, React Native, Expo, Node.js, Express.js, TypeScript, MySQL, JWT
+
 ## 🔗 Links
 
 - 🌐 [Portfolio](https://sathurshna-portfolio.vercel.app/)
